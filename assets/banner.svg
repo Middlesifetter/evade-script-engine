@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#111826"/>
+      <stop offset="100%" stop-color="#1a2333"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g stroke="#8ab4f8" stroke-width="1" opacity="0.12">
+    <line x1="60" y1="60" x2="220" y2="60"/>
+    <line x1="60" y1="60" x2="60" y2="140"/>
+    <line x1="1140" y1="300" x2="980" y2="300"/>
+    <line x1="1140" y1="300" x2="1140" y2="220"/>
+  </g>
+
+  <g opacity="0.15">
+    <circle cx="150" cy="90" r="70" fill="none" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="150" cy="90" r="40" fill="none" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="1050" cy="280" r="80" fill="none" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="1050" cy="280" r="45" fill="none" stroke="#7dd3fc" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.10" stroke="#ffffff" stroke-width="1" fill="none">
+    <path d="M 100 320 Q 300 260 500 320"/>
+    <path d="M 700 40 Q 900 100 1100 40"/>
+  </g>
+
+  <g opacity="0.08" fill="#ffffff">
+    <circle cx="950" cy="80" r="3"/>
+    <circle cx="980" cy="110" r="2"/>
+    <circle cx="920" cy="120" r="2"/>
+    <circle cx="230" cy="260" r="3"/>
+    <circle cx="260" cy="230" r="2"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" fill="#ffffff" font-weight="600">
+    <tspan>Evade Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Pluggable evade script engine for game-automation devs —</tspan>
+    <tspan x="600" dy="30">swap detection-dodge logic without touching core cod…</tspan>
+  </text>
+</svg>
